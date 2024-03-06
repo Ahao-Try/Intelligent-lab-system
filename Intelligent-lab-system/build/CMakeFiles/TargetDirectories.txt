@@ -1,0 +1,4 @@
+/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles/rebuild_cache.dir
+/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles/Intelligent-lab-system.dir
+/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles/edit_cache.dir
+/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles/Intelligent-lab-system_autogen.dir
