@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "Intelligent-lab-system_autogen"
-  "CMakeFiles/Intelligent-lab-system_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/Intelligent-lab-system_autogen"
+  "Intelligent-lab-system_autogen/include/ui_mainwindow.h"
+  "Intelligent-lab-system_autogen/mocs_compilation.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

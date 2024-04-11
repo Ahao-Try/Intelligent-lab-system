@@ -1,15 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Qt/5.15.2/mingw81_64/include/**"
             ],
-            "defines": [],
-            "cStandard": "c17",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "linux-clang-arm",
-            "compilerPath": "/home/lzh/Qt5.12.9/5.12.9/gcc_64/bin/qmake"
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/home/lzh/qt-everywhere-src-5.12.9/arm-qt/bin/qmake"
         }
     ],
     "version": 4
