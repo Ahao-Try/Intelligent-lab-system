@@ -153,6 +153,132 @@ CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.s"
 	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/arcface/mtcnn.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.s
 
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o: ../source/sensor/eeprom.cpp
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/eeprom.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/eeprom.cpp > CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/eeprom.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o: ../source/sensor/light.cpp
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/light.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/light.cpp > CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/light.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o: ../source/sensor/oled.cpp
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp > CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o: ../source/sensor/temperature.cpp
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp > CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o: ../source/sensor/wet.cpp
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp > CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp -o CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o: ../Page1.cpp
+CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.cpp > CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.cpp -o CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o: ../Page2.cpp
+CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.cpp > CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.cpp -o CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o: ../Page3.cpp
+CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.cpp > CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.cpp -o CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.s
+
+CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o: CMakeFiles/Intelligent-lab-system.dir/flags.make
+CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o: ../myPushButton.cpp
+CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o: CMakeFiles/Intelligent-lab-system.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o -MF CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o.d -o CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o -c /home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.cpp
+
+CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.i"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.cpp > CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.i
+
+CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.s"
+	arm-linux-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.cpp -o CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.s
+
 # Object files for target Intelligent-lab-system
 Intelligent__lab__system_OBJECTS = \
 "CMakeFiles/Intelligent-lab-system.dir/Intelligent-lab-system_autogen/mocs_compilation.cpp.o" \
@@ -160,7 +286,16 @@ Intelligent__lab__system_OBJECTS = \
 "CMakeFiles/Intelligent-lab-system.dir/mainwindow.cpp.o" \
 "CMakeFiles/Intelligent-lab-system.dir/source/arcface/arcface.cpp.o" \
 "CMakeFiles/Intelligent-lab-system.dir/source/arcface/base.cpp.o" \
-"CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.o"
+"CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o" \
+"CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o"
 
 # External object files for target Intelligent-lab-system
 Intelligent__lab__system_EXTERNAL_OBJECTS =
@@ -171,6 +306,15 @@ Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/mainwindow.cpp.o
 Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/arcface/arcface.cpp.o
 Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/arcface/base.cpp.o
 Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/arcface/mtcnn.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/sensor/eeprom.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/sensor/light.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/Page1.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o
+Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/myPushButton.cpp.o
 Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/build.make
 Intelligent-lab-system: /home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/libQt5Widgets.so.5.12.9
 Intelligent-lab-system: /home/lzh/deep_leaning/opencv/build/install/lib/libopencv_gapi.so.4.9.0
@@ -228,7 +372,7 @@ Intelligent-lab-system: /home/lzh/deep_leaning/opencv/build/install/lib/libopenc
 Intelligent-lab-system: /home/lzh/deep_leaning/opencv/build/install/lib/libopencv_imgproc.so.4.9.0
 Intelligent-lab-system: /home/lzh/deep_leaning/opencv/build/install/lib/libopencv_core.so.4.9.0
 Intelligent-lab-system: CMakeFiles/Intelligent-lab-system.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Intelligent-lab-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Intelligent-lab-system"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Intelligent-lab-system.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

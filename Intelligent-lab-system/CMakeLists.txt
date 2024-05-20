@@ -22,6 +22,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_PREFIX_PATH "/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake")
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
+include_directories(${Qt5Widgets_INCLUDE_DIRS})
+message(${Qt5Widgets_INCLUDE_DIRS})
 
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
@@ -51,9 +53,16 @@ link_directories(${NCNN_LIB_DIR})
 set(CUSTOM_OPENMP_LIB_DIR ${CMAKE_CURRENT_SOURCE_DIR}//lib/openmp)
 
 # 添加头文件目录
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/arcface/*.h)
-#源文件
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/arcface)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/sensor)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+# 源文件
 file(GLOB ARC_SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/source/arcface/*.cpp)
+file(GLOB SENSOR_SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/source/sensor/*.cpp)
+file(GLOB QT_SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+
+
 
 if(ANDROID)
   add_library(Intelligent-lab-system SHARED
@@ -62,6 +71,8 @@ if(ANDROID)
     mainwindow.h
     mainwindow.ui
     ${ARC_SOURCE_FILES}
+    ${SENSOR_SOURCE_FILES}
+    ${QT_SOURCE_FILES}
   )
 else()
   add_executable(Intelligent-lab-system
@@ -70,10 +81,14 @@ else()
     mainwindow.h
     mainwindow.ui
     ${ARC_SOURCE_FILES}
+    ${SENSOR_SOURCE_FILES}
+    ${QT_SOURCE_FILES}
   )
 endif()
 
 # 链接 Qt5 库
 target_link_libraries(Intelligent-lab-system PRIVATE Qt5::Widgets ${OpenCV_LIBS} ncnn pthread ${CUSTOM_OPENMP_LIB_DIR}/libgomp.a)
 
+#driver
+add_subdirectory(driver)
 

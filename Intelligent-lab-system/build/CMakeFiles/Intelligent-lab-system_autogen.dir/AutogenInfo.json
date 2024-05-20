@@ -133,9 +133,33 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.h",
+			"MU",
+			"EWIEGA46WW/moc_Page1.cpp",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.h",
+			"MU",
+			"EWIEGA46WW/moc_Page2.cpp",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.h",
+			"MU",
+			"EWIEGA46WW/moc_Page3.cpp",
+			null
+		],
+		[
 			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.h",
+			"MU",
+			"EWIEGA46WW/moc_myPushButton.cpp",
 			null
 		]
 	],
@@ -156,7 +180,8 @@
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system",
 		"/home/lzh/deep_leaning/opencv/build/install/include",
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/ncnn",
-		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/arcface/*.h",
+		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/arcface",
+		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui",
@@ -197,12 +222,32 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/main.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.cpp",
 			"MU",
 			null
 		],
@@ -218,6 +263,31 @@
 		],
 		[
 			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/arcface/mtcnn.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/eeprom.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/light.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp",
 			"MU",
 			null
 		]

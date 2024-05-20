@@ -305,20 +305,88 @@ CMakeFiles/Intelligent-lab-system.dir/main.cpp.o: \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qkeysequence.h \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qtabwidget.h \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qicon.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QApplication \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qapplication.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreapplication.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreevent.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qeventloop.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qguiapplication.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qinputmethod.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qlocale.h \
- /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qvariant.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QLabel \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qlabel.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qframe.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QProgressBar \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qprogressbar.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QPushButton \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qpushbutton.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qabstractbutton.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QWidget \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qwidget.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QVBoxLayout \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qboxlayout.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qlayout.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qlayoutitem.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qboxlayout.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qgridlayout.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QTimer \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qtimer.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qbasictimer.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QDebug \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qdebug.h \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qmap.h \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include/c++/7.5.0/functional \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include/c++/7.5.0/bits/std_function.h \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include/c++/7.5.0/bits/refwrap.h \
- /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include/c++/7.5.0/iostream \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qtextstream.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qlocale.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qvariant.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qset.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcontiguouscache.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QStackedWidget \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qstackedwidget.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QPoint \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qpoint.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QEvent \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreevent.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/QMouseEvent \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qevent.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreevent.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qurl.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qfile.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qfiledevice.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qvector2d.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qtouchdevice.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/QTouchEvent \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/temperature.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/stat.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stat.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/include-fixed/bits/statx.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/statx-generic.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types/struct_statx_timestamp.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types/struct_statx.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/fcntl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/fcntl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/fcntl-linux.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types/struct_iovec.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/linux/falloc.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/unistd.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/environments.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/confname.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/getopt_posix.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/getopt_core.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/unistd_ext.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/ioctl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/ioctls.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/asm/ioctls.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/asm-generic/ioctls.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/linux/ioctl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/asm/ioctl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/asm-generic/ioctl.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/ioctl-types.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/ttydefaults.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/wet.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/light.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QTime \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qdatetime.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QCoreApplication \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreapplication.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qeventloop.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page1.h \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/opencv.hpp \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/opencv_modules.hpp \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/core.hpp \
@@ -399,6 +467,7 @@ CMakeFiles/Intelligent-lab-system.dir/main.cpp.o: \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/params.h \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/any.h \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/defines.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include/c++/7.5.0/iostream \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/saving.h \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/nn_index.h \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/flann/result_set.h \
@@ -486,6 +555,13 @@ CMakeFiles/Intelligent-lab-system.dir/main.cpp.o: \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/video.hpp \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/video/tracking.hpp \
  /home/lzh/deep_leaning/opencv/build/install/include/opencv4/opencv2/video/background_segm.hpp \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page2.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/Page3.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QApplication \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qapplication.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcoreapplication.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qguiapplication.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qinputmethod.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/./include/arcface/arcface.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/./include/arcface/../ncnn/net.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/./include/arcface/../ncnn/blob.h \

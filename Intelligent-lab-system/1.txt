@@ -1,0 +1,44 @@
+# 设置内核路径
+set(KERNEL_PATH /home/lzh/100ask_imx6ull-sdk/Linux-4.9.88)
+set(DRIVER_PATH ${PROJECT_SOURCE_DIR}/driver)
+set(MODULE_PATH ${PROJECT_SOURCE_DIR}/build/)
+
+# 包含 driver 目录中的所有 .c 文件
+file(GLOB DRIVER_SOURCES ${DRIVER_PATH}/*.c)
+
+foreach(SOURCE ${DRIVER_SOURCES})
+    # 获取文件名（不带路径和扩展名）
+    get_filename_component(FILENAME ${SOURCE} NAME_WE)
+
+    # 设置目标目录为 module/FILENAME
+    set(TARGET_DIR ${CMAKE_BINARY_DIR}/${FILENAME})
+
+    #创建文件夹
+    file(MAKE_DIRECTORY ${TARGET_DIR})
+
+    # 添加内核模块构建目标
+    # add_custom_target(build_${FILENAME} ALL
+    #     COMMAND ${CMAKE_MAKE_PROGRAM} -C ${KERNEL_PATH} M=${DRIVER_PATH} SRC=${SOURCE} modules
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/${FILENAME}.o ${TARGET_DIR}/
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/${FILENAME}.ko ${TARGET_DIR}/
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/${FILENAME}.mod.c ${TARGET_DIR}/
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/Module.symvers ${TARGET_DIR}/
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/modules.order ${TARGET_DIR}/
+    #     COMMAND ${CMAKE_COMMAND} -E mv ${DRIVER_PATH}/.cmd ${TARGET_DIR}/
+    #     WORKING_DIRECTORY ${DRIVER_PATH}
+    #     COMMENT "Building kernel module ${FILENAME} and moving files to ${TARGET_DIR}"
+    # )
+    add_custom_target(build_${FILENAME} ALL
+        COMMAND ${CMAKE_MAKE_PROGRAM} -C ${KERNEL_PATH} M=${DRIVER_PATH} SRC=${SOURCE} modules
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${DRIVER_PATH}/*.o ${TARGET_DIR}/
+        COMMAND ${CMAKE_COMMAND} -E remove ${DRIVER_PATH}/*.o
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${DRIVER_PATH}/*.ko ${TARGET_DIR}/
+        COMMAND ${CMAKE_COMMAND} -E remove ${DRIVER_PATH}/*.ko
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${DRIVER_PATH}/*.mod.c ${TARGET_DIR}/
+        COMMAND ${CMAKE_COMMAND} -E remove ${DRIVER_PATH}/*.mod.c
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${DRIVER_PATH}/Module.symvers ${TARGET_DIR}/
+        COMMAND ${CMAKE_COMMAND} -E remove ${DRIVER_PATH}/Module.symvers
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different ${DRIVER_PATH}/modules.order ${TARGET_DIR}/
+        COMMAND ${CMAKE_COMMAND} -E remove ${DRIVER_PATH}/modules.order
+    )
+endforeach()

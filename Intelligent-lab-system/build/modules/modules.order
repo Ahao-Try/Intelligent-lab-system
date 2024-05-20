@@ -1,0 +1,5 @@
+kernel//home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/eeprom.ko
+kernel//home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/light.ko
+kernel//home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/oled.ko
+kernel//home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/temperature.ko
+kernel//home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/wet.ko

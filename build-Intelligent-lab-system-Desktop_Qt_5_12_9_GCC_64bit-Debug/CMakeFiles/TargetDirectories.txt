@@ -1,0 +1,7 @@
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/CMakeFiles/Intelligent-lab-system.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/CMakeFiles/Intelligent-lab-system_autogen.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/CMakeFiles/rebuild_cache.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/CMakeFiles/edit_cache.dir
+/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/CMakeFiles/build_.dir

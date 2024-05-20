@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Intelligent-lab-system"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\qt-everywhere-src-5.12.9\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Widgets\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\;CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\;CMake Files\..\..\deep_leaning\;CMake Files\..\..\deep_leaning\opencv\;CMake Files\..\..\deep_leaning\opencv\build\;CMake Files\..\..\deep_leaning\opencv\build\install\;CMake Files\..\..\deep_leaning\opencv\build\install\lib\;CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\;CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\opencv4\;CMake Files\driver\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Intelligent-lab-system">
+				<Option output="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system_autogen/include"/>
+					<Add directory="/home/lzh/deep_leaning/opencv/build/install/include"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/ncnn"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/arcface"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/./mkspecs/linux-arm-gnueabi-g++"/>
+					<Add directory="/home/lzh/deep_leaning/opencv/build/install/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 Intelligent-lab-system"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Intelligent-lab-system/fast">
+				<Option output="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system_autogen/include"/>
+					<Add directory="/home/lzh/deep_leaning/opencv/build/install/include"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/ncnn"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/arcface"/>
+					<Add directory="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore"/>
+					<Add directory="/home/lzh/qt-everywhere-src-5.12.9/arm-qt/./mkspecs/linux-arm-gnueabi-g++"/>
+					<Add directory="/home/lzh/deep_leaning/opencv/build/install/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 Intelligent-lab-system/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Intelligent-lab-system_autogen">
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 Intelligent-lab-system_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="build_">
+				<Option working_dir="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/Makefile&quot;  VERBOSE=1 build_"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/driver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/main.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/mainwindow.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/mainwindow.h">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/mainwindow.ui">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.h">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/arcface/arcface.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/arcface/base.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/arcface/mtcnn.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/eeprom.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/light.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system_autogen/include/ui_mainwindow.h">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug/Intelligent-lab-system_autogen/mocs_compilation.cpp">
+			<Option target="Intelligent-lab-system"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\qt-everywhere-src-5.12.9\arm-qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/../../deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\deep_leaning\opencv\build\install\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/lzh/Intelligent-lab-system/Intelligent-lab-system/driver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\driver\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

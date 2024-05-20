@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "driver",
+					"jsonFile" : "directory-driver-Debug-44a24af0abd3abbd08f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "driver",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Intelligent-lab-system",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Intelligent-lab-system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Intelligent-lab-system-Debug-4329a34a4538bd5188dd.json",
+					"name" : "Intelligent-lab-system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Intelligent-lab-system_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Intelligent-lab-system_autogen-Debug-ff859d671d09a8e8bff4.json",
+					"name" : "Intelligent-lab-system_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "build_::@79c4302a1c0b85b97858",
+					"jsonFile" : "target-build_-Debug-b4c8bb6d7a0ad42fcbba.json",
+					"name" : "build_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzh/Intelligent-lab-system/build-Intelligent-lab-system-Desktop_Qt_5_12_9_GCC_64bit-Debug",
+		"source" : "/home/lzh/Intelligent-lab-system/Intelligent-lab-system"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
