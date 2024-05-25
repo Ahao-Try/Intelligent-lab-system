@@ -25,6 +25,9 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 include_directories(${Qt5Widgets_INCLUDE_DIRS})
 message(${Qt5Widgets_INCLUDE_DIRS})
 
+#找SerialPort
+find_package(Qt5 COMPONENTS SerialPort REQUIRED)
+
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
 # They need to be set before the find_package(Qt5 ...) call.
@@ -52,10 +55,17 @@ link_directories(${NCNN_LIB_DIR})
 #查找openmp
 set(CUSTOM_OPENMP_LIB_DIR ${CMAKE_CURRENT_SOURCE_DIR}//lib/openmp)
 
+#找sqlite
+set(SQLITE_LIB_DIR /home/lzh/sqlite-autoconf-3450300/sq_arm/lib)
+set(SQLITE_INCLUDE_DIR /home/lzh/sqlite-autoconf-3450300/sq_arm/include)
+include_directories(${SQLITE_INCLUDE_DIR})
+link_directories(${SQLITE_LIB_DIR})
+
 # 添加头文件目录
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/arcface)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/sensor)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include/nlohmann)
 
 # 源文件
 file(GLOB ARC_SOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/source/arcface/*.cpp)
@@ -87,7 +97,7 @@ else()
 endif()
 
 # 链接 Qt5 库
-target_link_libraries(Intelligent-lab-system PRIVATE Qt5::Widgets ${OpenCV_LIBS} ncnn pthread ${CUSTOM_OPENMP_LIB_DIR}/libgomp.a)
+target_link_libraries(Intelligent-lab-system PRIVATE Qt5::Widgets Qt5::SerialPort ${OpenCV_LIBS} ncnn pthread ${CUSTOM_OPENMP_LIB_DIR}/libgomp.a)
 
 #driver
 add_subdirectory(driver)

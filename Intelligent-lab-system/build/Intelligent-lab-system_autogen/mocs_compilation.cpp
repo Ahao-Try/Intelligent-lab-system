@@ -4,3 +4,4 @@
 #include "EWIEGA46WW/moc_Page3.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_myPushButton.cpp"
+#include "EWIEGA46WW/moc_wifi.cpp"

@@ -24,17 +24,23 @@ public:
     QLabel *label;
 private:
     QWidget *cameraWidget;
-    
+    myPushButton *openCamera;
+
+    myPushButton *registerButton;
 
     myPushButton *trueButton;
 
 signals:
     void goToPage2();
 
+    void openCameraNow();
+
 private slots:
     void onTrueButtonClicked();
     
+    void openCameraClick();
 
+    void doing();
 };
 
 #endif // PAGE1_H

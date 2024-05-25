@@ -75,6 +75,9 @@
         "qwidget": "cpp",
         "qcoreapplication": "cpp",
         "qtouchevent": "cpp",
-        "qpushbutton": "cpp"
+        "qpushbutton": "cpp",
+        "forward_list": "cpp",
+        "filesystem": "cpp",
+        "valarray": "cpp"
     }
 }

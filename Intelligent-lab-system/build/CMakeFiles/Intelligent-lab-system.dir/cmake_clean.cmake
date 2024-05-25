@@ -32,6 +32,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o.d"
   "CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o"
   "CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o.d"
+  "CMakeFiles/Intelligent-lab-system.dir/wifi.cpp.o"
+  "CMakeFiles/Intelligent-lab-system.dir/wifi.cpp.o.d"
   "Intelligent-lab-system"
   "Intelligent-lab-system.pdb"
 )

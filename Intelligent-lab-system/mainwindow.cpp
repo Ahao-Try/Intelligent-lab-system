@@ -24,16 +24,9 @@ MainWindow::MainWindow(QWidget *parent)
     timer = new QTimer(this);
     timer->setInterval(100);
     connect(timer,&QTimer::timeout,this,&MainWindow::timeOut);
-    timer->start();
 
-        
-    int deviceID = 1; //相机设备号
-    cap.set(cv::CAP_PROP_FRAME_WIDTH, 640); //图像的宽，需要相机支持此宽
-    cap.set(cv::CAP_PROP_FRAME_HEIGHT, 480); //图像的高，需要相机支持此高
-    cap.open(deviceID);
-     if (!cap.isOpened()) {
-        qDebug() << "Error: Failed to open camera.";
-    }
+    connect(page1,&Page1::openCameraNow,this,&MainWindow::openCameraNow);   
+
 
     ////叠入页面
     stackedWidget->addWidget(page1);
@@ -57,10 +50,8 @@ void MainWindow::gotoPage2() {
 }
 
 void MainWindow::gotoPage1() {
-    cap.open(1);
-    timer->start();
     qDebug() << "The gotoPage2 slot was called, switching to page 1.";
-    stackedWidget->setCurrentWidget(page1); // 切换至 page2
+    stackedWidget->setCurrentWidget(page1); 
 }
 
 void MainWindow::gotoPage3(){
@@ -69,6 +60,18 @@ void MainWindow::gotoPage3(){
 
 void MainWindow::page3GotoPage2(){
     stackedWidget->setCurrentWidget(page2);
+}
+
+void MainWindow::openCameraNow(){
+    timer->start();
+
+    int deviceID = 1; //相机设备号
+    cap.set(cv::CAP_PROP_FRAME_WIDTH, 640); //图像的宽，需要相机支持此宽
+    cap.set(cv::CAP_PROP_FRAME_HEIGHT, 480); //图像的高，需要相机支持此高
+    cap.open(deviceID);
+     if (!cap.isOpened()) {
+        qDebug() << "Error: Failed to open camera.";
+    }
 }
 
 void MainWindow::timeOut(){

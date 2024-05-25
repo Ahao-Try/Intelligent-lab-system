@@ -337,6 +337,11 @@ CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o: \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qcontiguouscache.h \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QStackedWidget \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qstackedwidget.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/QDoubleSpinBox \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qspinbox.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtWidgets/qabstractspinbox.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui/qvalidator.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qregularexpression.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/myPushButton.h \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/QTime \
  /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore/qdatetime.h \
@@ -383,4 +388,6 @@ CMakeFiles/Intelligent-lab-system.dir/Page3.cpp.o: \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/ioctl-types.h \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/ttydefaults.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/wet.h \
- /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/light.h
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/light.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/eeprom.h \
+ /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/fcntl.h

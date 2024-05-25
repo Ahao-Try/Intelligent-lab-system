@@ -7,6 +7,14 @@ Page2::Page2(QWidget *parent)
 
     layoutInit();
 
+    //wifi
+    esp8266 = new Esp8266(this);
+    // while(!esp8266->init_wifi){
+    //     qDebug()<<"init wifi ..."<<endl;
+    //     sleep(5);
+    // }
+    // qDebug()<<"init wifi ok"<<endl;
+
     refreshTimer = new QTimer(this);
     refreshTimer->setInterval(50000);
     connect(refreshTimer, &QTimer::timeout, this, &Page2::refreshTimerOut);
@@ -140,11 +148,13 @@ void Page2::RefreshTem(){
     temperature = GetTemperature("/dev/lzh_ds18b20");
     TemValue->setText(QString::number(temperature) + "℃");
     TemBar->setValue(temperature);
+
 }
 
 void Page2::RefreshWet(){
     wet = GetWet("/dev/lzh_dht11");
     WetValue->setText(QString::number(wet[0]) + "." + QString::number(wet[1]) + "%");
+    wetT = wet[0];
     WetBar->setValue(wet[0]);
     free(wet);
 }
@@ -155,10 +165,38 @@ void Page2::RefreshLight(){
     LightBar->setValue(light);
 }
 
+
+void Page2::pushToAliyun(){
+    /* 接收缓冲区中读取数据 */
+    QByteArray buf = esp8266->serialPort->readAll();
+    QString temp = QString(buf);
+    esp8266->readData.append(temp);
+    qDebug()<<temp<<endl;
+    sleep(2);
+
+    QString id = QString::number(QDateTime::currentMSecsSinceEpoch()); // 使用当前时间戳作为唯一 ID
+    QString jsonData = QString(R"({\"method\":\"thing.service.property.set\"\,\"id\":\"%1\"\,\"params\":{\"tem\":%2\,\"wet\":%3\,\"light\":%4}\,\"version\":\"1.0.0\"})")
+                           .arg(id)
+                           .arg(temperature)
+                           .arg(wetT)
+                           .arg(light);
+
+    QString cmd = QString(R"(AT+MQTTPUB=0,"/sys/k1bf3RR4psx/esp8266_device/thing/event/property/post","%1",1,0)")
+                      .arg(jsonData);
+
+    esp8266->sendCmdToEsp8266(cmd);
+
+    if(esp8266->readData.contains("OK") && esp8266->readData.contains("AT+MQTTPUB")){
+        qDebug()<<"上传成功"<<endl;
+        esp8266->readData.clear();
+    }
+}
+
 void Page2::refreshTimerOut(){
     RefreshTem();
     RefreshWet();
     RefreshLight();
+    pushToAliyun();
 }
 
 void Page2::refreshButtonPush(){
@@ -172,3 +210,4 @@ void Page2::clickReturnPage1Button(){
 void Page2::setting(){
     emit gotoPage3();
 }
+

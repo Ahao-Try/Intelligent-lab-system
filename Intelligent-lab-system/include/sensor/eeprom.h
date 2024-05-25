@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/fcntl.h>
 
-int WriteInEeprom(char*dev ,u_int8_t* buffer);
-int ReadFromEeprom(char*dev ,u_int8_t* buffer);
+int WriteInEeprom(char*dev ,u_int8_t* buffer,int size);
+int ReadFromEeprom(char*dev ,u_int8_t* buffer,int size);
 
 #endif

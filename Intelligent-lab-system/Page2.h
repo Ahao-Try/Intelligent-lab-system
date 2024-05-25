@@ -15,6 +15,7 @@
 #include "include/sensor/temperature.h"
 #include "include/sensor/wet.h"
 #include "include/sensor/light.h"
+#include "wifi.h"
 
 class Page2:public QWidget
 {
@@ -39,6 +40,7 @@ private:
     QLabel *WetName;
     QLabel *WetValue;
     u_int8_t* wet;
+    double wetT;
     QProgressBar* WetBar;
     void RefreshWet();
 
@@ -61,6 +63,11 @@ private:
 
     //返回页面1按钮
     myPushButton *returnPage1Button;
+
+    //wifi
+    Esp8266 *esp8266;
+
+    void pushToAliyun();
 
 signals:
     void gotoPage1();

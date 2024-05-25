@@ -11,10 +11,12 @@
 #include <vector>
 #include <QDebug>
 #include <QStackedWidget>
+#include <QDoubleSpinBox>
 #include "myPushButton.h"
 #include "include/sensor/temperature.h"
 #include "include/sensor/wet.h"
 #include "include/sensor/light.h"
+#include "include/sensor/eeprom.h"
 
 class Page3:public QWidget
 {
@@ -29,9 +31,33 @@ signals:
 private:
     myPushButton *returnPage2;
 
+    //tem
+    QWidget *temW;
+    QLabel *tem;
+    QDoubleSpinBox *temH;
+    QDoubleSpinBox *temL;
+
+    //wet
+    QWidget *wetW;
+    QLabel *wet;
+    QDoubleSpinBox *wetH;
+    QDoubleSpinBox *wetL;
+
+    //light
+    QWidget *lightW;
+    QLabel *light;
+    QDoubleSpinBox *lightH;
+    QDoubleSpinBox *lightL;
+
+    //save
+    myPushButton *save;
 
 private slots:
     void clickReturnPage2();
+
+    void saveInEeprom();
+
+    void readFromEeprom();
 };
 
 #endif // PAGE3_H

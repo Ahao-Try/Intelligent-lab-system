@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <iostream>
+#include <QSerialPort>
 #include <opencv2/opencv.hpp>
 #include "./include/arcface/arcface.h"
 #include "./include/arcface/mtcnn.h"

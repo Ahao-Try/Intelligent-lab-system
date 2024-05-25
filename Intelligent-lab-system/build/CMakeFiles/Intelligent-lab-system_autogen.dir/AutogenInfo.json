@@ -120,6 +120,11 @@
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/opt/cmake-3.21.4/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake",
 		"/home/lzh/deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVConfig-version.cmake",
 		"/home/lzh/deep_leaning/opencv/build/install/lib/cmake/opencv4/OpenCVConfig.cmake",
 		"/opt/cmake-3.21.4/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
@@ -161,12 +166,25 @@
 			"MU",
 			"EWIEGA46WW/moc_myPushButton.cpp",
 			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/wifi.h",
+			"MU",
+			"EWIEGA46WW/moc_wifi.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/Intelligent-lab-system_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/build/Intelligent-lab-system_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -180,6 +198,7 @@
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system",
 		"/home/lzh/deep_leaning/opencv/build/install/include",
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/ncnn",
+		"/home/lzh/sqlite-autoconf-3450300/sq_arm/include",
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/arcface",
 		"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include",
@@ -187,6 +206,7 @@
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtGui",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtCore",
 		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/mkspecs/linux-arm-gnueabi-g++",
+		"/home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort",
 		"/home/lzh/deep_leaning/opencv/build/install/include/opencv4",
 		"/usr/include/c++/7",
 		"/usr/include/x86_64-linux-gnu/c++/7",
@@ -288,6 +308,11 @@
 		],
 		[
 			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/lzh/Intelligent-lab-system/Intelligent-lab-system/wifi.cpp",
 			"MU",
 			null
 		]

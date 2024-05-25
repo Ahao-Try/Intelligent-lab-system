@@ -383,4 +383,10 @@ CMakeFiles/Intelligent-lab-system.dir/Page2.cpp.o: \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/ioctl-types.h \
  /home/lzh/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/ttydefaults.h \
  /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/wet.h \
- /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/light.h
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/include/sensor/light.h \
+ /home/lzh/Intelligent-lab-system/Intelligent-lab-system/wifi.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort/QSerialPort \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort/qserialport.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort/qserialportglobal.h \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort/QSerialPortInfo \
+ /home/lzh/qt-everywhere-src-5.12.9/arm-qt/include/QtSerialPort/qserialportinfo.h

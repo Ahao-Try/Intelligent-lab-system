@@ -22,6 +22,7 @@
 #include "Page1.h"
 #include "Page2.h"
 #include "Page3.h"
+#include "wifi.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -54,6 +55,7 @@ public slots:
     //页面1
     void gotoPage2();
     void timeOut();
+    void openCameraNow();
     
     //页面2
     void gotoPage1(); 

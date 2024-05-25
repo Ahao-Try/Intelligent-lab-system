@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/oled.cpp" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o" "gcc" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/oled.cpp.o.d"
   "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/temperature.cpp" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o" "gcc" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/temperature.cpp.o.d"
   "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/source/sensor/wet.cpp" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o" "gcc" "CMakeFiles/Intelligent-lab-system.dir/source/sensor/wet.cpp.o.d"
+  "/home/lzh/Intelligent-lab-system/Intelligent-lab-system/wifi.cpp" "CMakeFiles/Intelligent-lab-system.dir/wifi.cpp.o" "gcc" "CMakeFiles/Intelligent-lab-system.dir/wifi.cpp.o.d"
   )
 
 # Targets to which this target links.
